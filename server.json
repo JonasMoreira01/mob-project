@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "email": "joao@example.com",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Maria Santos",
+      "email": "maria@example.com",
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Primeiro Post",
+      "content": "Este é o conteúdo do primeiro post",
+      "userId": 1,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Segundo Post",
+      "content": "Este é o conteúdo do segundo post",
+      "userId": 2,
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    }
+  ]
+}
