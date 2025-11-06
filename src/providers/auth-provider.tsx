@@ -46,7 +46,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
     checkAuth()
   }, [])
 
-  const login = async (email: string, password: string) => {
+  const login = async (email: string) => {
     setIsLoading(true)
     try {
       // Simulate API call

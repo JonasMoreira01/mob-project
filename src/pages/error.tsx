@@ -2,8 +2,6 @@ import { Button } from '@inmediam/ui'
 import { isAxiosError } from 'axios'
 import { NavLink, useRouteError } from 'react-router-dom'
 
-import NotFoundImage from '../assets/NotFound.svg'
-
 export function Error() {
   const error = useRouteError() as Error
   const axiosError = isAxiosError(error)
@@ -14,7 +12,7 @@ export function Error() {
   return (
     <div className="flex h-screen flex-col items-center justify-center gap-2 bg-background">
       <img
-        src={NotFoundImage}
+        src={'/NotFound.svg'}
         alt="Ilustração indicando página não encontrada"
         className="mx-auto -mb-80 -mt-[19rem] w-[56rem]"
       />

@@ -1,5 +1,3 @@
-import React from "react";
-
 export const BookDownloadIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg

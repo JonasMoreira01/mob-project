@@ -1,5 +1,3 @@
-import React from "react";
-
 export const MobLogo: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg

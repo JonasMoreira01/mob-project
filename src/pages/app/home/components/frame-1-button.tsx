@@ -2,10 +2,10 @@
 
 import { Button } from "@inmediam/ui";
 // 1. Importe o tipo 'LucideIcon' (ou 'ElementType' do 'react')
-import { LucideIcon } from "lucide-react";
+import type { ComponentType, SVGProps } from "react";
 
 interface Frame1ButtonProps {
-  icon: LucideIcon; // 2. Mude o tipo da prop para aceitar um componente
+  icon: ComponentType<SVGProps<SVGSVGElement>>; // 2. Mude o tipo da prop para aceitar um componente
   textDown: string;
   textUp: string;
   bgColor?: string;

@@ -14,9 +14,4 @@ export default defineConfig({
   optimizeDeps: {
     include: ['use-sync-external-store/shim'],
   },
-  test: {
-    globals: true,
-    environment: 'happy-dom',
-    setupFiles: ['./src/test/setup.ts'],
-  },
 })

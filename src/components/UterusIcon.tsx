@@ -1,5 +1,3 @@
-import React from "react";
-
 export const UterusIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
