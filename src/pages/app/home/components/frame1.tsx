@@ -45,8 +45,8 @@ export function Frame1() {
             icon={BookDownloadIcon}
             textUp="E-book"
             textDown="GPS do Meu Ciclo"
-            bgColor="#8A4D8A"
-            hoverBgColor="#bd69bd"
+            bgColor="bg-[#8A4D8A]"
+            hoverBgColor="hover:bg-[#bd69bd]"
           />
         </div>
       </div>
