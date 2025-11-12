@@ -1,4 +1,7 @@
 import { Button } from "@inmediam/ui";
+import deBem from "@/assets/de-bem.png";
+import mob from "@/assets/mob.png";
+import sede from "@/assets/sede.png";
 
 export function Frame3() {
   return (
@@ -19,17 +22,17 @@ export function Frame3() {
         {/* Product Cards */}
         <div className="flex justify-center items-center gap-8 mb-16">
           <img
-            src="/de-bem.png"
+            src={deBem}
             alt="De Bem com Meu Ciclo"
             className="h-2/3 rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105"
           />
           <img
-            src="/mob.png"
+            src={mob}
             alt="MOB para Iniciantes"
             className="h-2/3 rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105"
           />
           <img
-            src="/sede.png"
+            src={sede}
             alt="sede fecundos"
             className="h-2/3 rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105"
           />

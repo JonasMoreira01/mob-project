@@ -1,3 +1,5 @@
+import womanSmiling from '@/assets/woman-smiling.png';
+
 export function Frame2() {
   return (
     <div className="w-full">
@@ -66,7 +68,7 @@ export function Frame2() {
         <div className="mx-auto flex max-w-7xl items-center justify-end text-center">
           {/* Woman's Image */}
           <img
-            src="/woman-smiling.png"
+            src={womanSmiling}
             alt="Mulher sorridente - instrutora do Método de Ovulação Billings"
             className="absolute -bottom-10 left-0 z-10 hidden h-[180%] w-auto lg:block"
           />

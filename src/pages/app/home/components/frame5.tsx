@@ -1,4 +1,5 @@
 import { Button } from "@inmediam/ui";
+import instrutoras from "@/assets/instrutoras.png";
 
 export function Frame5() {
   return (
@@ -39,7 +40,7 @@ export function Frame5() {
           </div>
 
           {/* Coluna da Direita: Imagem */}
-          <img src="instrutoras.png" alt="Instrutoras" />
+          <img src={instrutoras} alt="Instrutoras" />
         </div>
       </div>
     </section>

@@ -1,4 +1,7 @@
 import { Button, Card, CardContent, CardTitle } from "@inmediam/ui";
+import ebook from "@/assets/ebook.png";
+import instrutora_on from "@/assets/instrutora_on.png";
+import instrutora from "@/assets/instrutora.png";
 
 export function Frame4() {
   return (
@@ -26,7 +29,7 @@ export function Frame4() {
             <div className="mt-8 text-center">
               {/* Substitua o `src` pela sua imagem */}
               <img
-                src="ebook.png"
+                src={ebook}
                 alt="E-book GPS do Meu Ciclo em celular e tablet"
                 className="mx-auto h-[10rem]"
               />
@@ -45,7 +48,7 @@ export function Frame4() {
             <div className="h-20">
               {/* Substitua o `src` pela sua imagem de título */}
               <img
-                src="instrutora_on.png"
+                src={instrutora_on}
                 alt="A Instrutora tá On!"
                 className="h-full"
               />
@@ -55,7 +58,7 @@ export function Frame4() {
             <div className="text-center">
               {/* Substitua o `src` pela sua imagem */}
               <img
-                src="instrutora.png"
+                src={instrutora}
                 alt="Instrutora segurando celular"
                 className="mx-auto rounded-xl h-[12rem]"
               />

@@ -11,7 +11,7 @@ export const router = createBrowserRouter(
       errorElement: <Error />,
       children: [
         {
-          path: '',
+          path: 'mob-project',
           children: [
             {
               id: 'home',

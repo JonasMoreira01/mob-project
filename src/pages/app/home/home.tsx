@@ -9,6 +9,7 @@ import { Frame6 } from "./components/frame6";
 import { Frame7 } from "./components/frame7";
 import { Frame8 } from "./components/frame8";
 import { Footer } from "./components/footer";
+import heroBackground from '@/assets/hero-background.png';
 
 export function Home() {
   return (
@@ -23,7 +24,7 @@ export function Home() {
         {/* Background Image Layer */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/hero-background.png"
+            src={heroBackground}
             alt="Hero background with women and baby"
             className="w-full h-full object-cover opacity-80"
           />
